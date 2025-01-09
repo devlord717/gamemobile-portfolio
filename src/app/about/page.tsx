@@ -43,7 +43,7 @@ const About: NextPage = () => {
                     </div> */}
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+324 751-8039</span>
+                        Phone : <span>+354 751-8039</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
