@@ -11,6 +11,42 @@ const Service: NextPage = () => {
       </div>
     </div>
     <div className="row">
+      {/* Service Item 1: Frontend development */}
+      <div className="service-item padd-15">
+        <div className="service-item-inner">
+          <div className="icon"><i className="fa fa-paint-brush" /></div>
+          <h4>Frontend Development</h4>
+          <p>Builds responsive and interactive UIs using Vue.js, React, and modern frameworks. <br/>
+            Focuses on user experience, state management, and real-time updates.
+          </p>
+        </div>
+      </div>
+      {/* Service Item 1 End */}
+
+      {/* Service Item 2: Backend development */}
+      <div className="service-item padd-15">
+        <div className="service-item-inner">
+          <div className="icon"><i className="fa fa-cogs" /></div>
+          <h4>Backend Development</h4>
+          <p>Develops scalable APIs and server-side applications with Laravel, Node.js, and PHP.<br/>
+          Manages databases, authentication, and cloud services.
+          </p>
+        </div>
+      </div>
+      {/* Service Item 2 End */}
+
+      {/* Service Item 3: Software development */}
+      <div className="service-item padd-15">
+        <div className="service-item-inner">
+          <div className="icon"><i className="fa fa-window-maximize" /></div>
+          <h4>Software Development</h4>
+          <p>Creates full-stack solutions by integrating frontend, backend, and cloud.<br/>
+          Optimizes architecture, performance, and security for scalable applications.
+          </p>
+        </div>
+      </div>
+      {/* Service Item 3 End */}
+
       {/* Service Item 1: Mobile App Development */}
       <div className="service-item padd-15">
         <div className="service-item-inner">
@@ -47,19 +83,6 @@ const Service: NextPage = () => {
         </div>
       </div>
       {/* Service Item 3 End */}
-      
-      {/* Service Item 4: Technical Support
-      <div className="service-item padd-15">
-        <div className="service-item-inner">
-          <div className="icon"><i className="fa fa-graduation-cap" /></div>
-          <h4>Technical Support</h4>
-            <p>
-              Provides assistance to users and developers in troubleshooting and resolving technical issues.
-              Includes customer service, issue and sometimes debugging.
-            </p>
-        </div>
-      </div>
-      {/* Service Item 4 End */}    
     </div>
   </div>
 </section>
